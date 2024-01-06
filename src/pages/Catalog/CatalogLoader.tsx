@@ -1,3 +1,3 @@
 export const CatalogLoader = () => {
-    return '12'
-}
+  return <div>12</div>;
+};

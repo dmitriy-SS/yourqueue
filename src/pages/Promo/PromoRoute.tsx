@@ -1,9 +1,9 @@
 import { RouteObject } from 'react-router-dom';
-import PromoPage from './PromoPage';
+import { PromoPageLazy } from './PromoPageLazy';
 
 export const PromoRoute: RouteObject = {
   path: '/',
   index: true,
   loader: () => import('./PromoLoader'),
-  element: <PromoPage />,
+  element: <PromoPageLazy />,
 };

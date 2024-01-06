@@ -1,10 +1,10 @@
-import { lazy } from 'react';
+import { RouteObject } from 'react-router-dom';
+import CatalogPageLazy from './CatalogPageLazy';
 
-const CatalogLazy = lazy(() => import('./CatalogPage'));
-
-const CatalogRoute = {
+const CatalogRoute:RouteObject = {
   path: '/catalog',
   loader: () => import('./CatalogLoader'),
-  element: <CatalogLazy/>,
+  element: <CatalogPageLazy />,
 };
 export default CatalogRoute;
+  

@@ -1,8 +1,5 @@
-import React from 'react'
+const DashbordsPage = () => {
+  return <div>BussinesProfile</div>;
+};
 
-export const DashbordsPage = () => {
-  return (
-    <div>BussinesProfile</div>
-  )
-}
-
+export default DashbordsPage;

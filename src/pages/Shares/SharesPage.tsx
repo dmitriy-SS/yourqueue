@@ -1,6 +1,6 @@
-import React from 'react';
 
 const Shares = () => {
+
   return <div>Shares</div>;
 };
 
